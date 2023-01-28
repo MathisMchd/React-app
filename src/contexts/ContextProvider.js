@@ -21,7 +21,7 @@ export const ContextProvider = ({ children }) => {
                 setActiveMenu,
             }}
         >
-
+            {children}
         </StateContext.Provider>
     )
 }
