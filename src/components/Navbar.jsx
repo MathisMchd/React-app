@@ -39,6 +39,14 @@ const Navbar = () => {
         color="blue"
         icon={<AiOutlineMenu />}
       />
+      <div className="flex ">
+        <NavButton
+          title="Cart"
+          customFunc={true}
+          color="blue"
+          icon={<FiShoppingCart />}
+        />
+      </div>
     </div>
   )
 }
